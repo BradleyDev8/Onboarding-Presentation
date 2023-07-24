@@ -4,6 +4,7 @@ import handleScrollToNext from './components/scrollToNext';
 import MacSetup from './containers/MacSetup';
 import GitGitHub from './containers/GitGithub';
 import UnitTesting from './containers/UnitTesting';
+import ReactSetup from './containers/ReactSetup';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
 <MacSetup />
 <GitGitHub />
 <UnitTesting />
+<ReactSetup />
 
 
 </div>
