@@ -9,11 +9,11 @@ export default function GitGitHub() {
     <div id='git-github' className="hero min-h-screen bg-base-100 relative">
   <div className="hero-content text-center">
     <div className="max-w-md">
-      <button onClick={() => handleScrollToNext('mac-setup')} className=' btn bg-base-100 border-none text-base-100 hover:bg-accent group absolute top-0 left-0 mt-4 ml-4'>Secret back button<span className='opacity-0 group-hover:opacity-100'>😉</span></button>
+      <button onClick={() => handleScrollToNext('mac-setup')} className=' btn bg-base-100 border-none text-base-100 hover:bg-accent group absolute bottom-0 left-0 mb-4 ml-4'>Secret back button<span className='opacity-0 group-hover:opacity-100'>😉</span></button>
       <div className='flex items-center'>
       <img src={gitlogo} alt="" className='w-16 inline-flex mr-2'/>
       <h1 className="text-5xl font-bold">Git & GitHub</h1>
-      <img src={gitHubLogo} alt="" className='w-20 inline-flex ml-1'/>
+      <img src={gitHubLogo} alt="" className='w-20 inline-flex ml-1 '/>
       </div>
       <p className="py-6 font-semibold">Git & GitHub workshop conducted by Chloe. The workshop delved into the intricacies of Git configuration, Git commands, branching, local & remote repositories. </p>
     <label htmlFor="my_modal_6" className="btn btn-primary">Click Me!!</label>

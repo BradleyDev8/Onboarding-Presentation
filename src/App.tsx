@@ -5,6 +5,8 @@ import MacSetup from './containers/MacSetup';
 import GitGitHub from './containers/GitGithub';
 import UnitTesting from './containers/UnitTesting';
 import ReactSetup from './containers/ReactSetup';
+import NavBar from './components/NavBar';
+import Architecture from './containers/Architecture';
 
 function App() {
 
@@ -12,7 +14,8 @@ function App() {
   
   return (
     <div>
-    <div id='home' className="hero min-h-screen bg-base-100">
+      <NavBar/>
+    <div id='home' className="hero min-h-screen bg-gradient-to-r from-primary to-secondary">
   <div className="hero-content text-center">
     <div className="max-w-md">
       <h1 className="text-5xl font-bold">Onboarding with Hamilton Robson</h1>
@@ -24,6 +27,7 @@ function App() {
 <MacSetup />
 <GitGitHub />
 <UnitTesting />
+<Architecture />
 <ReactSetup />
 
 
