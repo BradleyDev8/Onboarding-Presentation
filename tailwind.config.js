@@ -10,6 +10,9 @@ module.exports = {
         main: "#1976d2",
         second: "#32205cff",
       },
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
+      }
     },
 
    

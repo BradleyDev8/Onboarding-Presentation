@@ -53,7 +53,7 @@ const AccordionChecked: React.FC = () => {
             <div className='flex justify-center gap-4'>
               <div className=' p-2'><img src={JobMatcha} className='w-24' alt="" />
               <h2 className='font-semibold'>JobMatcha</h2></div>
-              <div className=' p-2'><img src={MarvelLogo} className='w-44' alt="" />
+              <div className=' p-2'><img src={MarvelLogo} className='w-44 animate-spin-slow' alt="" />
               <h2 className='font-semibold'>Marvel</h2></div>
               <div className=' p-2'><img src={SailLogo} className='w-28' alt="" />
               <h2 className='font-semibold'>Sail</h2></div>
