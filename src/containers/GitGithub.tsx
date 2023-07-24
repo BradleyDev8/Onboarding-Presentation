@@ -26,7 +26,7 @@ export default function GitGitHub() {
         </div>
     </div>
     </div>
-      <button className="btn btn-success mb-4 absolute bottom-0 right-0 mr-4">Next Slide</button>
+      <button onClick={() => handleScrollToNext("unit-testing")} className="btn btn-success mb-4 absolute bottom-0 right-0 mr-4">Next Slide</button>
     </div>
   </div>
 </div>

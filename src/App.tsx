@@ -3,6 +3,7 @@ import './App.css';
 import handleScrollToNext from './components/scrollToNext';
 import MacSetup from './containers/MacSetup';
 import GitGitHub from './containers/GitGithub';
+import UnitTesting from './containers/UnitTesting';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
 </div>
 <MacSetup />
 <GitGitHub />
+<UnitTesting />
 
 
 </div>
