@@ -4,6 +4,8 @@ import HRbg2 from "../assets/HRbg2.png";
 import Giffy from "../components/Giffy";
 
 export default function ThankYou() {
+
+  
   return (
     <div id='thankyou-page' className='hero min-h-screen relative' style={{backgroundImage: `url(${HRbg2})`}}>
         <div className='hero-content text-center flex'>
@@ -17,5 +19,6 @@ export default function ThankYou() {
         </div>
       <button onClick={() => handleScrollToNext('tailwind-page')} className=' btn bg-secondary text-white border-none hover:bg-accent group absolute bottom-0 right-0 mb-4 mr-4'>Not so Secret back button 😒</button>
     </div>
+
   )
 }

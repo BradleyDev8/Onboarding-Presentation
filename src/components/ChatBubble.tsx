@@ -11,7 +11,7 @@ const ChatBubble: React.FC = () => {
   return (
     <div>
       <div className="chat chat-end" onClick={toggleImage}>
-        <div className="chat-bubble chat-bubble-success">Ask Kyle😁</div>
+        <div className="chat-bubble chat-bubble-success animate-pulse">Ask Kyle😁</div>
       </div>
       
       {isImageOpen && (

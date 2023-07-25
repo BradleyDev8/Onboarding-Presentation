@@ -9,6 +9,7 @@ import NavBar from './components/NavBar';
 import Architecture from './containers/Architecture';
 import ThankYou from './containers/ThankYou';
 import TailwindPage from './containers/TailwindPage';
+import TypedChanger from './components/TypedChanger';
 
 function App() {
 
@@ -20,7 +21,8 @@ function App() {
     <div id='home' className="hero min-h-screen bg-gradient-to-r from-primary to-secondary">
   <div className="hero-content text-center">
     <div className="max-w-md">
-      <h1 className="text-5xl font-bold">Onboarding with Hamilton Robson</h1>
+      
+      <TypedChanger/>
       <p className="py-6 font-semibold">This presentation will cover the topics that I have learned during the onboarding process at Hamilton Robson</p>
       <button className="btn btn-primary" onClick={() => handleScrollToNext('mac-setup')}>Start Presentation</button>
     </div>
