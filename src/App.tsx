@@ -7,6 +7,8 @@ import UnitTesting from './containers/UnitTesting';
 import ReactSetup from './containers/ReactSetup';
 import NavBar from './components/NavBar';
 import Architecture from './containers/Architecture';
+import ThankYou from './containers/ThankYou';
+import TailwindPage from './containers/TailwindPage';
 
 function App() {
 
@@ -29,6 +31,8 @@ function App() {
 <UnitTesting />
 <Architecture />
 <ReactSetup />
+<TailwindPage />
+<ThankYou/>
 
 
 </div>

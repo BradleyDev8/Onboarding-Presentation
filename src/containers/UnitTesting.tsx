@@ -1,6 +1,5 @@
 import React from 'react'
 import handleScrollToNext from '../components/scrollToNext';
-import logo from "../assets/logo.svg";
 import testing101 from "../assets/testing-101.png";
 
 export default function UnitTesting() {
@@ -37,7 +36,7 @@ export default function UnitTesting() {
   
 </div>
         </div>
-      <button onClick={() => handleScrollToNext('architecture')} className="btn btn-success mb-4 absolute bottom-0 right-0 mr-4">Next Slide</button>
+      <button onClick={() => handleScrollToNext('architecture')} className="btn btn-success mb-4 absolute bottom-0 right-0 mr-4 hover:opacity-80">Next Slide</button>
       
     </div>
   </div>

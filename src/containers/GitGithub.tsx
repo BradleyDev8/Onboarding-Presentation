@@ -3,6 +3,7 @@ import handleScrollToNext from '../components/scrollToNext';
 import gitlogo from '../assets/git-logo.png';
 import gitHubLogo from '../assets/github-logo.png';
 import githubimage from '../assets/github-image.png';
+import gitmeme from '../assets/gitmemeHR.png'
 
 export default function GitGitHub() {
   return (
@@ -15,8 +16,8 @@ export default function GitGitHub() {
       <h1 className="text-5xl font-bold">Git & GitHub</h1>
       <img src={gitHubLogo} alt="" className='w-20 inline-flex ml-1 '/>
       </div>
-      <p className="py-6 font-semibold">Git & GitHub workshop conducted by Chloe. The workshop delved into the intricacies of Git configuration, Git commands, branching, local & remote repositories. </p>
-    <label htmlFor="my_modal_6" className="btn btn-primary">Click Me!!</label>
+      <p className="py-6 font-semibold">Git & GitHub workshop conducted by Chloe. The workshop helped discover the intricacies of Git configuration, Git commands, branching, local & remote repositories. </p>
+    <label htmlFor="my_modal_6" className="btn btn-primary mr-2">Click Me!!</label>
     <input type="checkbox" id="my_modal_6" className="modal-toggle" />
     <div className="modal">
     <div className="modal-box">
@@ -26,7 +27,17 @@ export default function GitGitHub() {
         </div>
     </div>
     </div>
-      <button onClick={() => handleScrollToNext("unit-testing")} className="btn btn-success mb-4 absolute bottom-0 right-0 mr-4">Next Slide</button>
+    <label htmlFor="my_modal_2" className="btn btn-primary ml-2">And Me!</label>
+    <input type="checkbox" id="my_modal_2" className="modal-toggle" />
+    <div className="modal">
+    <div className="modal-box-2">
+        <img src={gitmeme} className='w-full' alt="" />
+        <div className="modal-action">
+        <label htmlFor="my_modal_2" className="btn btn-primary ">Close!</label>
+        </div>
+    </div>
+    </div>
+      <button onClick={() => handleScrollToNext("unit-testing")} className="btn btn-success mb-4 absolute bottom-0 right-0 mr-4 hover:opacity-80">Next Slide</button>
     </div>
   </div>
 </div>

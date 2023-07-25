@@ -19,7 +19,7 @@ export default function Architecture() {
             
           </p>
           <AccordionChecked/>
-          <button onClick={() => handleScrollToNext('react-setup')} className="btn btn-success mb-4 absolute bottom-0 right-0 mr-4">Next Slide</button>
+          <button onClick={() => handleScrollToNext('react-setup')} className="btn btn-success mb-4 absolute bottom-0 right-0 mr-4 hover:opacity-80">Next Slide</button>
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import handleScrollToNext from '../components/scrollToNext';
+import goldenTicket from '../assets/goldenTicket.png'
 
 export default function MacSetup() {
   return (
@@ -23,7 +24,11 @@ export default function MacSetup() {
         <li>TablePlus</li>
       </ul>
       </div>
-      <button onClick={() => handleScrollToNext('git-github')} className="btn btn-success mb-4 absolute bottom-0 right-0 mr-4">Next Slide</button>
+      <div className='flex justify-center mt-6 mr-6'>
+        <a target="_blank" rel='noreferrer' href="https://hamiltonrobson.sharepoint.com/:w:/r/sites/HRSoftwareDevelopment/_layouts/15/Doc.aspx?sourcedoc=%7B9D584750-3C9C-475A-A302-4EFFF0E1DD82%7D&file=All-In-One-Mac-Setup.docx&action=default&mobileredirect=true"><img src={goldenTicket} alt="" className='w-44 '/> </a>
+      
+      </div>
+      <button onClick={() => handleScrollToNext('git-github')} className="btn btn-success mb-4 absolute bottom-0 right-0 mr-4 hover:opacity-80">Next Slide</button>
     </div>
   </div>
 </div>
