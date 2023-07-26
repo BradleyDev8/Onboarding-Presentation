@@ -17,7 +17,7 @@ const ChatBubble: React.FC = () => {
       {isImageOpen && (
         <div className="w-full h-auto">
           <img src={kyleYoda} className='h-56' alt="description" />
-          <div className="chat-bubble chat-bubble-success">"Secret, shall I tell you? Grand Master of TailwindCSS am I."</div>
+          <div className="chat-bubble chat-bubble-success">"Grand Master of TailwindCSS am I."</div>
         </div>
       )}
     </div>
